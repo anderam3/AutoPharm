@@ -1,1 +1,1 @@
-# AutoPharm
+# Please watch the Demo.mp4 file for the "AutoPhillKiosk" app.
