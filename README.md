@@ -1,1 +1,1 @@
-# Please watch the Demo.mp4 file for the "AutoPhillKiosk" app.
+# Please watch "Demo.mp4" and read "Demo.pdf" for more information.
