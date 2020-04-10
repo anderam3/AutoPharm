@@ -11,7 +11,7 @@ class App extends Component {
     return (
       <div>
         <Router />
-        <Button variant="outlined" color="primary">Speak with a Pharmacist<RecordVoiceOver /></Button>
+        <Button variant="outlined" color="primary" href="callto:PLACEHOLDER">Speak with a Pharmacist<RecordVoiceOver /></Button>
         <Button variant="outlined" color="primary">Quit<ExitToApp /></Button>
         <Button><img src={Logo} alt="AutoPhill" width="25%"/></Button>
       </div>
