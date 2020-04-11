@@ -22,14 +22,14 @@ class PaymentOptions extends Component {
                     </CardContent>
                 </CardActionArea>
                 <CardActions>
-                    <Button variant="contained" component={Link} to="/PaymentReceived" color="secondary">Coins<Toll/></Button>
-                    <Button variant="contained" component={Link} to="/PaymentReceived" color="secondary">Bills<Money /></Button>
-                    <Button variant="contained" component={Link} to="/PaymentReceived" color="secondary">Debit/Credit/Gift Card<CreditCard /></Button>
+                    <Button variant="contained" component={Link} to="/PaymentReceived" color="secondary">Coin(s)<Toll/></Button>
+                    <Button variant="contained" component={Link} to="/PaymentReceived" color="secondary">Bill(s)<Money /></Button>
+                    <Button variant="contained" component={Link} to="/PaymentReceived" color="secondary">Debit/Credit/Gift Card(s)<CreditCard /></Button>
                     <Button variant="contained" component={Link} to="/Checkout" color="secondary">Back<Backspace /></Button>
                 </CardActions>
             </Card>
         </div>
-        );
+    );
   }
 }
 

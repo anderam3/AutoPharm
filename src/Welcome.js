@@ -19,12 +19,12 @@ class Welcome extends Component {
                     </CardContent>
                 </CardActionArea>
                 <CardActions>
-                    <Typography>Please insert your health card</Typography>
+                    <Typography>Please insert your health card.</Typography>
                     <Button variant="contained" component={Link} to="/Account" color="secondary"><CreditCard /></Button>
                 </CardActions>
             </Card>
         </div>
-        );
+    );
   }
 }
 

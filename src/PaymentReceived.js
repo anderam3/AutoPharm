@@ -24,13 +24,12 @@ class PaymentReceived extends Component {
                     </CardContent>
                 </CardActionArea>
                 <CardActions>
-                    <Button variant="contained" color="secondary">Email Notification?<Email /></Button>
-                    <Button variant="contained" color="secondary">SMS Notification?<Message /></Button>  
+                    <Button variant="contained" color="secondary" href="mailto:PLACEHOLDER">Email Notification<Email /></Button>
+                    <Button variant="contained" color="secondary" href="sms:PLACEHOLDER">SMS Notification<Message /></Button>  
                 </CardActions>
             </Card>
         </div>
-
-        );
+    );
   }
 }
 
